@@ -42,7 +42,7 @@ export default {
       return this.productIcon[this.product];
     },
     getPlanImg() {
-      if (this.plan.toLowerCase() === "gold plus") {
+      if (this.plan.toLowerCase() === "gold+ plan") {
         return "/img/icons/badge-gold-plus.svg";
       }
       return this.planIcon[this.plan];
