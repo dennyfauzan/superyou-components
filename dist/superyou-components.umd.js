@@ -28704,12 +28704,12 @@ var ProductCompletedName_component = normalizeComponent(
 )
 
 /* harmony default export */ var ProductCompletedName = (ProductCompletedName_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4cd4c609-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/atoms/BaseIconProductAndPlan.vue?vue&type=template&id=5b292142&
-var BaseIconProductAndPlanvue_type_template_id_5b292142_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"icon-container",class:[_vm.product ].concat( _vm.iconSizeClasses)},[_c('img',{staticClass:"icon-product",attrs:{"src":_vm.getProductImg}}),_c('img',{staticClass:"icon-plan",attrs:{"src":_vm.getPlanImg}})])}
-var BaseIconProductAndPlanvue_type_template_id_5b292142_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4cd4c609-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/atoms/BaseIconProductAndPlan.vue?vue&type=template&id=fb18a8b4&
+var BaseIconProductAndPlanvue_type_template_id_fb18a8b4_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"icon-container",class:[_vm.product ].concat( _vm.iconSizeClasses)},[_c('img',{staticClass:"icon-product",attrs:{"src":_vm.getProductImg}}),_c('img',{staticClass:"icon-plan",attrs:{"src":_vm.getPlanImg}})])}
+var BaseIconProductAndPlanvue_type_template_id_fb18a8b4_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/atoms/BaseIconProductAndPlan.vue?vue&type=template&id=5b292142&
+// CONCATENATED MODULE: ./src/atoms/BaseIconProductAndPlan.vue?vue&type=template&id=fb18a8b4&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/atoms/BaseIconProductAndPlan.vue?vue&type=script&lang=js&
 //
@@ -28755,7 +28755,7 @@ var BaseIconProductAndPlanvue_type_template_id_5b292142_staticRenderFns = []
       return this.productIcon[this.product];
     },
     getPlanImg: function getPlanImg() {
-      if (this.plan.toLowerCase() === "gold plus") {
+      if (this.plan.toLowerCase() === "gold+ plan") {
         return "/img/icons/badge-gold-plus.svg";
       }
 
@@ -28786,8 +28786,8 @@ var BaseIconProductAndPlanvue_type_style_index_0_lang_scss_ = __webpack_require_
 
 var BaseIconProductAndPlan_component = normalizeComponent(
   atoms_BaseIconProductAndPlanvue_type_script_lang_js_,
-  BaseIconProductAndPlanvue_type_template_id_5b292142_render,
-  BaseIconProductAndPlanvue_type_template_id_5b292142_staticRenderFns,
+  BaseIconProductAndPlanvue_type_template_id_fb18a8b4_render,
+  BaseIconProductAndPlanvue_type_template_id_fb18a8b4_staticRenderFns,
   false,
   null,
   null,
