@@ -178,8 +178,8 @@ export default {
           position: absolute;
           left: 0;
           top: 100%;
-          width: 100%;
           opacity: 0;
+          width: 100%;
         }
       }
 
