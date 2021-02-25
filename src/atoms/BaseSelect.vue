@@ -127,7 +127,7 @@ export default {
     }
   }
   .base-select {
-    min-height: 38px;
+    min-height: 32px;
     &.vs--open {
       .vs__selected {
         position: relative;
@@ -179,6 +179,7 @@ export default {
           left: 0;
           top: 100%;
           width: 100%;
+          opacity: 0;
         }
       }
 
