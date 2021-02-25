@@ -127,6 +127,7 @@ export default {
     }
   }
   .base-select {
+    min-height: 38px;
     &.vs--open {
       .vs__selected {
         position: relative;
