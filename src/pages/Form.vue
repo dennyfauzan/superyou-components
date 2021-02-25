@@ -62,6 +62,18 @@
         :theme="currentTheme"
       ></base-select>
       <br />
+      <base-select
+        name="plan"
+        label="Plan"
+        :value="form.plan.val"
+        v-on:handle-change="(...args) => handleDataChange(...args, 'form')"
+        v-on:error-handler="(...args) => errorHandlerInput(...args, 'form')"
+        :error="form.plan.err"
+        :err-msg="form.plan.msg"
+        :options="planSelectOpt"
+        :theme="currentTheme"
+      ></base-select>
+      <br />
       <base-checkbox-and-radio
         name="gender"
         v-on:handle-change="(...args) => handleDataChange(...args, 'form')"
@@ -127,6 +139,12 @@ export default {
           msg: "",
           label_name: "Hubungan",
         },
+        plan: {
+          val: { label: "Silver Plan dengan Santunan Tunai Harian COVID 19", val: "plan_1" },
+          err: false,
+          msg: "",
+          label_name: "Plan",
+        },
         gender: {
           val: "",
           err: false,
@@ -166,6 +184,12 @@ export default {
         { label: "Ayah Kandung", val: "father" },
         { label: "Ibu Kandung", val: "mother" },
         { label: "Saudara Kandung", val: "brother" },
+      ],
+      planSelectOpt: [
+        { label: "Silver Plan dengan Santunan Tunai Harian COVID 19", val: "plan_1" },
+        { label: "Silver Plan dengan Perlindungan COVID 19", val: "plan_2" },
+        { label: "Gold Plan dengan Santunan Tunai Harian COVID 19", val: "plan_3" },
+        { label: "Gold Plan Tanpa Perlindungan COVID 19", val: "plan_4" },
       ],
       currentTheme: "normal",
     };
